@@ -1,0 +1,4 @@
+{
+  "API_TOKEN": "your_secret_token_here",
+  "API_URL": "/chat"
+}

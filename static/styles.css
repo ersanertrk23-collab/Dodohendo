@@ -1,0 +1,18 @@
+:root{
+  --bg:#f6f7fb;
+  --accent:#2b2f92;
+  --user:#d1e7ff;
+  --bot:#ffffff;
+}
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial,Helvetica,sans-serif;background:var(--bg);color:#111}
+.app{display:flex;flex-direction:column;height:100vh}
+header{padding:12px;background:var(--accent);color:white;text-align:center}
+.chat-area{flex:1;overflow:auto;padding:12px;display:flex;flex-direction:column;gap:8px}
+.msg{padding:10px;border-radius:8px;max-width:86%;}
+.msg.user{align-self:flex-end;background:var(--user)}
+.msg.bot{align-self:flex-start;background:var(--bot)}
+.msg.pending{align-self:center;background:transparent;color:gray;font-style:italic}
+.chat-form{display:flex;padding:8px;gap:8px;background:transparent}
+.chat-form input{flex:1;padding:10px;border-radius:8px;border:1px solid #ccc}
+.chat-form button{padding:10px 14px;border-radius:8px;border:none;background:var(--accent);color:#fff}
