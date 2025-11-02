@@ -1,0 +1,6 @@
+{
+  "appId": "com.dodohendo.app",
+  "appName": "Dodohendo",
+  "webDir": "www",
+  "bundledWebRuntime": true
+}

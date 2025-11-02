@@ -1,0 +1,14 @@
+{
+  "name": "dodohendo-mobile",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Capacitor wrapper for Dodohendo PWA",
+  "scripts": {
+    "build": "echo 'no build step; www contains assets'",
+    "android": "npx cap open android"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^5.0.0",
+    "@capacitor/android": "^5.0.0"
+  }
+}
